@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Gallery Example</title>
+</head>
+<body>
+
+<div class="gallery">
+  <ul class="js-gallery">
+    <li class="gallery__item">
+        <a
+          class="gallery__link"
+          href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc3GsunVMNVPRFTZvdb38Fo907mF67nvbjaw&usqp=CAU"
+        >
+          <img
+            class="gallery__image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc3GsunVMNVPRFTZvdb38Fo907mF67nvbjaw&usqp=CAU"
+            data-source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc3GsunVMNVPRFTZvdb38Fo907mF67nvbjaw&usqp=CAU"
+            alt="parrot"
+          />
+        </a>
+      </li>
+
+      <li class="gallery__item">
+        <a
+          class="gallery__link"
+          href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_piBsl8BVptf_RnnWGDEEpgBtCEPfVXfO6w&usqp=CAU"
+        >
+          <img
+            class="gallery__image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_piBsl8BVptf_RnnWGDEEpgBtCEPfVXfO6w&usqp=CAU"
+            data-source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_piBsl8BVptf_RnnWGDEEpgBtCEPfVXfO6w&usqp=CAU"
+            alt="kitten"
+          />
+        </a>
+      </li>
+
+      <li class="gallery__item">
+        <a
+          class="gallery__link"
+          href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLnIzSkGUb9uA6FyzXBAh4rQOGJMYQ0XncBw&usqp=CAU"
+        >
+          <img
+            class="gallery__image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLnIzSkGUb9uA6FyzXBAh4rQOGJMYQ0XncBw&usqp=CAU"
+            data-source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLnIzSkGUb9uA6FyzXBAh4rQOGJMYQ0XncBw&usqp=CAU"
+            alt="Tulips"
+          />
+        </a>
+      </li>
+  </ul>
+</div>
+
+<div class="lightbox js-lightbox">
+  <button class="lightbox__button" data-action="close-lightbox">&times;</button>
+  <img class="lightbox__image" src="" alt="Full Size Image">
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
